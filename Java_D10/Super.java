@@ -1,6 +1,7 @@
 public class Super {
 
 	public String name;
+
 	public static int count;
 
 	public final String type;
@@ -24,6 +25,7 @@ public class Super {
 	public static strictfp final void showCount() {
 
 		final String others;
+		
 		others = "Hello";
 
 		System.out.println(others);
